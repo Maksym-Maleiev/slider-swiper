@@ -96,3 +96,12 @@ body {
   color: #e7b921;
   font-size: 80px;
 }
+
+/* Pagination */
+.image-slider .swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  background-color: #e7b921;
+}
