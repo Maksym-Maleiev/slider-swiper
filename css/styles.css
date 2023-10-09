@@ -122,3 +122,18 @@ body {
   cursor: pointer;
   background-color: #e7b921;
 }
+
+/* Autowidth */
+.image-slider .swiper {
+  width: auto;
+}
+
+/* Multi-row */
+/* .image-slider {
+  height: 700px;
+}
+
+.image-slider .swiper {
+  height: calc((100% - 30px) / 2);
+  overflow: hidden;
+} */
