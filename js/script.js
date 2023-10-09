@@ -9,6 +9,7 @@ new Swiper('.image-slider', {
   pagination: {
     el: '.swiper-pagination',
     // bullets
+    type: 'bullets',
     clickable: true,
     // denamic bullets
     dynamicBullets: true,
