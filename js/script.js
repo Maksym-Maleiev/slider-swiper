@@ -10,5 +10,11 @@ new Swiper('.image-slider', {
     el: '.swiper-pagination',
     // bullets
     clickable: true,
+    // denamic bullets
+    dynamicBullets: true,
+    // custom bullets
+    renderBullet: function (index, className) {
+      return '<span class="' + className + '">' + (index + 1) + '</span>';
+    }
   },
 });
