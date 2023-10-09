@@ -67,4 +67,58 @@ new Swiper('.image-slider', {
     // pageUp, pageDown
     pageUpDown: true,
   },
+
+  // Mouse wheel control
+  mousewheel: {
+    // mouse wheel sensitivity
+    sensitivity: 1,
+    // object class on which 
+    // mouse scrolling will be triggered
+    // eventsTarget: ".image-slider"
+  },
+
+  // Autoheight
+  autoHeight: false,
+
+  // Number of slides to show
+  slidesPerView: 1,
+
+  // Disabling functionality
+  // if there are fewer slides than needed
+  watchOverflow: true,
+
+  // Space between slides
+  spaceBetween: 30,
+
+  // Number of scrollable slides
+  slidesPerGroup: 1,
+
+  // Active slide in the center
+  centeredSlides: false,
+
+  // Initial slide
+  initialSlide: 0,
+
+  // Multi-row
+  sliderPerColumn: 1,
+
+  // Endless slider
+  loop: false,
+
+  // Number of duplicate slides
+  loopSlides: 0,
+
+  // Free mode
+  freeMode: false,
+
+  // Autoplay
+  autoplay: {
+    // delay
+    delay: 1000,
+    // stop on last slide
+    stopOnLastSlide: true,
+    // disable on interaction
+    disableOnInteraction: false
+  }
 });
+
