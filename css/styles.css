@@ -48,4 +48,24 @@ body {
 .title {
   font-size: 30px;
   font-weight: 700;
+  color: #fff;
+  margin: 0px 0px 30px 0px;
+}
+
+.image-slider {
+  padding: 30px 0 70px 0;
+}
+
+.image-slider__wpapper {
+}
+
+.image-slider__slide {
+}
+
+.image-slider__image {
+  text-align: center;
+}
+
+.image-slider__image img {
+  max-width: 100%;
 }
