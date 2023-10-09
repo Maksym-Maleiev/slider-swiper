@@ -15,6 +15,6 @@ new Swiper('.image-slider', {
     // custom bullets
     renderBullet: function (index, className) {
       return '<span class="' + className + '">' + (index + 1) + '</span>';
-    }
+    },
   },
 });
