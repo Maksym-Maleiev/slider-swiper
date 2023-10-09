@@ -19,5 +19,9 @@ new Swiper('.image-slider', {
     // },
     // Fraction
     type: 'fraction',
+    // Custom fraction
+    renderFraction: function (currentClass, totalClass) {
+      return 'Photo <span class="' + currentClass + '"></span>' + ' from ' + '<span class"' + totalClass + '"></span>';
+    },
   },
 });
