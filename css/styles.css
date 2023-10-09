@@ -105,3 +105,9 @@ body {
   font-size: 14px;
   background-color: #e7b921;
 }
+
+/* Fraction */
+.image-slider .swiper-pagination-fraction {
+  font-size: 20px;
+  color: #e7b921;
+}
