@@ -8,14 +8,16 @@ new Swiper('.image-slider', {
   // navigation
   pagination: {
     el: '.swiper-pagination',
-    // bullets
-    type: 'bullets',
-    clickable: true,
-    // denamic bullets
-    dynamicBullets: true,
-    // custom bullets
-    renderBullet: function (index, className) {
-      return '<span class="' + className + '">' + (index + 1) + '</span>';
-    },
+    // Bullets
+    // type: 'bullets',
+    // clickable: true,
+    // Dynamic bullets
+    // dynamicBullets: true,
+    // Custom bullets
+    // renderBullet: function (index, className) {
+    //   return '<span class="' + className + '">' + (index + 1) + '</span>';
+    // },
+    // Fraction
+    type: 'fraction',
   },
 });
