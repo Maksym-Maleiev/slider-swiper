@@ -52,14 +52,15 @@ body {
   margin: 0px 0px 30px 0px;
 }
 
+/* ---------------- */
+
 /* Flex */
 .block {
   display: flex;
 }
 
 .block__side {
-  flex: 0 0 300px;
-  background-color: tomato;
+  flex: 0 0 auto;
 }
 
 .block__body {
@@ -68,6 +69,8 @@ body {
 
   min-width: 0;
 }
+
+/* ---------------- */
 
 .image-slider {
   padding: 30px 0 70px 0;
