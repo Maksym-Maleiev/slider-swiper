@@ -1,13 +1,13 @@
 // Install Swiper
-new Swiper('.image-slider', {
+new Swiper(".image-slider", {
   // arrows
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev'
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
   },
   // navigation
   pagination: {
-    el: '.swiper-pagination',
+    el: ".swiper-pagination",
     /*
     // Bullets
     // type: 'bullets',
@@ -20,10 +20,18 @@ new Swiper('.image-slider', {
     },
     */
     // Fraction
-    type: 'fraction',
+    type: "fraction",
     // Custom fraction
     renderFraction: function (currentClass, totalClass) {
-      return 'Photo <span class="' + currentClass + '"></span>' + ' from ' + '<span class="' + totalClass + '"></span>';
+      return (
+        'Photo <span class="' +
+        currentClass +
+        '"></span>' +
+        " from " +
+        '<span class="' +
+        totalClass +
+        '"></span>'
+      );
     },
     /*
     // Progressbar
@@ -32,8 +40,8 @@ new Swiper('.image-slider', {
   },
   // Scroll
   scrollbar: {
-    el: '.swiper-scrollbar',
-    draggable: true
+    el: ".swiper-scrollbar",
+    draggable: true,
   },
 
   // On/Off
@@ -72,7 +80,7 @@ new Swiper('.image-slider', {
   mousewheel: {
     // mouse wheel sensitivity
     sensitivity: 1,
-    // object class on which 
+    // object class on which
     // mouse scrolling will be triggered
     // eventsTarget: ".image-slider"
   },
@@ -113,12 +121,11 @@ new Swiper('.image-slider', {
 
   // Autoplay
   autoplay: {
-    // delay
+    // delay betwwon sliders
     delay: 1000,
     // stop on last slide
     stopOnLastSlide: true,
     // disable on interaction
-    disableOnInteraction: false
-  }
+    disableOnInteraction: false,
+  },
 });
-
