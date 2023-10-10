@@ -133,7 +133,5 @@ new Swiper(".image-slider", {
   speed: 800,
 
   // Vertical slider
-  /*
-  direction: "vertical",
-*/
+  direction: "horizontal",
 });
