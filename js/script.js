@@ -134,4 +134,8 @@ new Swiper(".image-slider", {
 
   // Vertical slider
   direction: "horizontal",
+
+  // Effects
+  // Сorrespondence
+  effect: "slide",
 });
