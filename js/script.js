@@ -165,6 +165,7 @@ new Swiper(".image-slider", {
   */
 
   // Cube
+  /*
   effect: "cube",
 
   // Add to cube
@@ -174,5 +175,19 @@ new Swiper(".image-slider", {
     shadow: true,
     shadowOffset: 20,
     shadowScale: 0.94,
+  },
+  */
+
+  // Coverflow effect
+  effect: "coverflow",
+
+  // Add to coverflow
+  coveflowEffect: {
+    // Rotate
+    rotate: 20,
+    // Stretch
+    stretch: 50,
+    // Shadow
+    slideShadows: true,
   },
 });
