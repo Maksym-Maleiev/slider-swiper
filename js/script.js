@@ -165,7 +165,7 @@ new Swiper(".image-slider", {
   */
 
   // Cube
-  effect: "cude",
+  effect: "cube",
 
   // Add to cube
   cubeEffect: {
