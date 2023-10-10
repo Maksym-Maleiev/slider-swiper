@@ -124,11 +124,11 @@ new Swiper(".image-slider", {
     // delay betwwon sliders
     delay: 1000,
     // stop on last slide
-    stopOnLastSlide: true,
+    stopOnLastSlide: false,
     // disable on interaction
     disableOnInteraction: false,
   },
 
   // Speed
-  speed: 300,
+  speed: 800,
 });
