@@ -140,12 +140,24 @@ new Swiper(".image-slider", {
   // effect: "slide",
 
   // Change transparency
-  effect: "fade",
+  /*effect: "fade",
 
   // Add to fade
   fadeEffect: {
     // Parallel
     // change of transparency
     crossFade: true,
+  },
+  */
+
+  // Revolution
+  effect: "flip",
+
+  // Add to flip
+  flipEffect: {
+    // Shadow
+    slideShadow: true,
+    // Show only active slide
+    limitRotation: true,
   },
 });
