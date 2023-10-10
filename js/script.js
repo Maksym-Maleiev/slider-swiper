@@ -128,4 +128,7 @@ new Swiper(".image-slider", {
     // disable on interaction
     disableOnInteraction: false,
   },
+
+  // Speed
+  speed: 300,
 });
