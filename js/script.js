@@ -194,7 +194,7 @@ new Swiper(".image-slider", {
   */
 
   // Breakpoints (adaptive)
-  // Screen width
+  // Viewport width
   breakpoints: {
     320: {
       slidesPerView: 1,
