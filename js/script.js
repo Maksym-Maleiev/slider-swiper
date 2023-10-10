@@ -140,7 +140,8 @@ new Swiper(".image-slider", {
   // effect: "slide",
 
   // Change transparency
-  /*effect: "fade",
+  /*
+  effect: "fade",
 
   // Add to fade
   fadeEffect: {
@@ -151,6 +152,7 @@ new Swiper(".image-slider", {
   */
 
   // Revolution
+  /*
   effect: "flip",
 
   // Add to flip
@@ -159,5 +161,18 @@ new Swiper(".image-slider", {
     slideShadow: true,
     // Show only active slide
     limitRotation: true,
+  },
+  */
+
+  // Cube
+  effect: "cude",
+
+  // Add to cube
+  cubeEffect: {
+    // Menu settings
+    slideShadows: true,
+    shadow: true,
+    shadowOffset: 20,
+    shadowScale: 0.94,
   },
 });
