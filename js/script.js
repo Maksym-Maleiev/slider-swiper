@@ -137,5 +137,15 @@ new Swiper(".image-slider", {
 
   // Effects
   // Сorrespondence
-  effect: "slide",
+  // effect: "slide",
+
+  // Change transparency
+  effect: "fade",
+
+  // Add to fade
+  fadeEffect: {
+    // Parallel
+    // change of transparency
+    crossFade: true,
+  },
 });
