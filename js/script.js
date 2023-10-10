@@ -137,7 +137,7 @@ new Swiper(".image-slider", {
 
   // Effects
   // Сorrespondence
-  // effect: "slide",
+  effect: "slide",
 
   // Change transparency
   /*
@@ -179,6 +179,7 @@ new Swiper(".image-slider", {
   */
 
   // Coverflow effect
+  /*
   effect: "coverflow",
 
   // Add to coverflow
@@ -190,4 +191,8 @@ new Swiper(".image-slider", {
     // Shadow
     slideShadows: true,
   },
+  */
+
+  // Breakpoints (adaptive)
+  // Vieport width
 });
