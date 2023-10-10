@@ -195,6 +195,7 @@ new Swiper(".image-slider", {
 
   // Breakpoints (adaptive)
   // Viewport width
+  /*
   breakpoints: {
     320: {
       slidesPerView: 1,
@@ -203,6 +204,20 @@ new Swiper(".image-slider", {
       slidesPerView: 2,
     },
     992: {
+      slidesPerView: 3,
+    },
+  },
+  */
+
+  // Aspect ratio
+  breapoints: {
+    "@0.75": {
+      slidesPerView: 1,
+    },
+    "@1.00": {
+      slidesPerView: 2,
+    },
+    "@1.5": {
       slidesPerView: 3,
     },
   },
