@@ -223,4 +223,12 @@ new Swiper(".image-slider", {
     },
   },
   */
+  
+  // Image zoom
+  zoom: {
+    // maximum magnification
+    maxRatio: 5,
+    // minimum magnification
+    minRatio: 1,
+  },
 });
