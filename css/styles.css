@@ -148,3 +148,34 @@ body {
 /* .image-slider {
   width: 500px;
 } */
+
+/* Miniatures (preview) */
+.image-mini-slider {
+}
+
+.image-mini-slider__wrapper {
+}
+
+.image-mini-slider__slide {
+  opacity: 0.2;
+  transition: opacity 300ms ease 0ms;
+}
+
+.image-mini-slider__slide.swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.image-mini-slider__image {
+  position: relative;
+  padding: 0ps 0ps 30% 0px;
+  cursor: pointer;
+}
+
+.image-mini-slider__image img {
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
