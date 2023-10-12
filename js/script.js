@@ -233,6 +233,7 @@ new Swiper(".image-slider", {
   },
 
   // Miniature (preview)
+  /*
   thumbs: {
     // Swiper wish miniatures
     // and with his settings
@@ -241,4 +242,5 @@ new Swiper(".image-slider", {
       slidesPerView: 5,
     }
   },
+  */
 });
