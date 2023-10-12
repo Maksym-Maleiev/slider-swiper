@@ -120,6 +120,7 @@ new Swiper(".image-slider", {
   freeMode: false,
 
   // Autoplay
+  /*
   autoplay: {
     // delay betwwon sliders
     delay: 1000,
@@ -128,6 +129,7 @@ new Swiper(".image-slider", {
     // disable on interaction
     disableOnInteraction: false,
   },
+  */
 
   // Speed
   speed: 800,
