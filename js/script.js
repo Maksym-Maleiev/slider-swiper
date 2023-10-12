@@ -231,4 +231,14 @@ new Swiper(".image-slider", {
     // minimum magnification
     minRatio: 1,
   },
+
+  // Miniature (preview)
+  thumbs: {
+    // Swiper wish miniatures
+    // and with his settings
+    swiper: {
+      el: '.image-mini-slider',
+      slidesPerView: 5,
+    }
+  },
 });
