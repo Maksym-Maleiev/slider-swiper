@@ -225,20 +225,4 @@ new Swiper(".image-slider", {
     },
   },
   */
-  
-  // Disable preloading of pictures
-  preloadImages: false,
-  // Lazy Loading
-  lazy: {
-    // Upload to the start
-    // of the slide switch
-    loadOnTransitionStart: false,
-    // Upload the previous
-    // and next picture
-    loadPrevNext: false,
-  },
-  // Tracking visible slides
-  watchSlidesProgress: true,
-  // Adding a class to visible slides
-  watchSlidesVisibility: true,
 });
